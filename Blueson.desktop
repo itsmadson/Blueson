@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Blueson
+Comment=
+Exec=python3 Blueson.py
+Icon=/home/madson/Blueson/icon.png
+Path=/home/madson/Blueson
+Terminal=true
+StartupNotify=false
