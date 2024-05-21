@@ -11,9 +11,10 @@ Blueson is a tool for performing DOS attacks on Bluetooth devices. This reposito
 ## Installation
 To install Blueson, run the following command:
 ```sh
-sudo apt install l2ping
+sudo apt install bluez
+sudo apt-get install bluez-firmware firmware-atheros
+sudo apt-get install bluetooth bluez bluez-tools rfkill rfcomm
 sudo apt install mpg123
-sudo apt install hcitool
 ```
 ## Usage
 ```sh
