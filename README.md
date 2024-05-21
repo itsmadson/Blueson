@@ -16,6 +16,11 @@ sudo apt-get install bluez-firmware firmware-atheros
 sudo apt-get install bluetooth bluez bluez-tools rfkill rfcomm
 sudo apt install mpg123
 ```
+then
+```sh
+sudo systemctl start bluetooth.service
+sudo systemctl enable bluetooth.service
+```
 ## Usage
 ```sh
 python3 Blueson.py
